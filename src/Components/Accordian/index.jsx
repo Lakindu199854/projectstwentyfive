@@ -56,13 +56,6 @@ export default function Accordian() {
                 <div className="content">{item.answer}</div>
               ) : null}
 
-              {/* {isMultiSelectionOn ? (
-                multiArray.indexOf(item.id) !== -1 ? (
-                  <div className="content">{item.answer}</div>
-                ) : null
-              ) : selected === item.id ? (
-                <div className="content">{item.answer}</div>
-              ) : null} */}
             </div>
           ))
         ) : (
